@@ -60,3 +60,9 @@ Không có tài khoản, không có API hoặc máy chủ ghi dữ liệu cá nh
 ## Host trên Vercel
 
 Xem hướng dẫn `DEPLOY-VERCEL.md`. Thư mục này đã có `vercel.json` và sẵn sàng deploy dưới dạng static site.
+
+## Hiệu ứng khi làm bài
+
+- Câu đúng có hiệu ứng sáng nhẹ và hạt màu; câu sai có rung nhẹ để làm nổi phần phản hồi.
+- Bài đúng tất cả câu hiện meme 10 điểm. Nếu số câu sai lớn hơn một nửa tổng số câu, hiện meme động viên.
+- Tôn trọng cài đặt giảm chuyển động của thiết bị.

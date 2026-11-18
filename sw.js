@@ -1,12 +1,13 @@
-const CACHE = 'ngoai-khoa-quest-v3';
+const CACHE = 'ngoai-khoa-quest-v4';
 const CORE = ['/', '/index.html', '/style.css', '/app.js', '/questions.json', '/manifest.webmanifest', '/assets/icons/icon-192.png', '/assets/icons/icon-512.png'];
 const SCANS = Array.from({length:27}, (_,i)=>`/assets/scans/trang-${String(i+1).padStart(2,'0')}.webp`);
+const MEMES = ['/assets/memes/10-diem.webp', '/assets/memes/can-co-gang.webp'];
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     await cache.addAll(CORE);
-    await Promise.allSettled(SCANS.map(path => cache.add(path)));
+    await Promise.allSettled([...SCANS, ...MEMES].map(path => cache.add(path)));
     await self.skipWaiting();
   })());
 });
