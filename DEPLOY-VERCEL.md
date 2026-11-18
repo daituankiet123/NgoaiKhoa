@@ -39,4 +39,4 @@ Lần sau, cập nhật file trong cùng thư mục rồi chạy `npx vercel --p
 - Dữ liệu học và câu sai hiện lưu bằng `localStorage` trên từng trình duyệt/thiết bị; không đồng bộ khi đổi máy.
 - Ứng dụng chưa có đăng nhập, backend hay bảng xếp hạng chung.
 - Vercel không mặc nhiên biến app thành ứng dụng App Store/Google Play.
-- Tài liệu đi kèm gồm 27 trang chụp và 7 câu hỏi đã đối chiếu, chưa phải ngân hàng câu hỏi hoàn chỉnh.
+- Tài liệu đi kèm gồm 27 trang chụp và ngân hàng 402 câu; 7 câu được đối chiếu ảnh gốc, 395 câu nhập từ HTML nguồn và 59 câu kèm ghi chú.

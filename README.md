@@ -27,11 +27,12 @@ Mở `http://localhost:8080` trong trình duyệt.
 - Lưu tiến độ cục bộ bằng localStorage, xuất/khôi phục bản sao lưu.
 - Nhập thêm ngân hàng JSON từ giao diện (mẫu có thể tải trong Cài đặt).
 - 27 ảnh chụp gốc, đã xoay ảnh và tối ưu thành WebP, tích hợp xem ảnh.
+- Ngân hàng 402 câu: 7 câu đã đối chiếu với ảnh gốc và 395 câu trích từ tệp HTML 400 câu (bỏ 5 câu trùng). Có 59 câu kèm ghi chú của tài liệu nguồn; các ghi chú được hiển thị khi trả lời.
 - PWA: manifest, service worker cache tài liệu, icon màn hình chính.
 
 ## Lưu ý về nội dung
 
-ZIP đính kèm chứa 27 ảnh chụp tài liệu. Do nhiều trang bị mờ, nghiêng, ảnh chụp hai trang trên một khung và đáp án OCR dễ sai, **bản này chỉ tích hợp 7 câu đầu của ảnh số 1 được đọc và đối chiếu trực quan với đáp án in sẵn**. Tất cả 27 ảnh được giữ ở Thư viện để đối chiếu và bổ sung sau. Không tự động gán đáp án cho các câu OCR chưa kiểm định.
+Tệp `questions.json` giữ 7 câu đã đối chiếu trực quan với ảnh gốc và bổ sung 395 câu từ tệp HTML `tracNghiemNgoaiKhoa.html`. Các câu HTML có đáp án theo tài liệu nguồn, chưa được xác minh độc lập với ảnh. 59 câu có ghi chú/cảnh báo từ nguồn được giữ lại trong phần giải thích khi làm bài. Năm câu trùng nội dung đã được lược bỏ để tránh lặp. Các ảnh gốc tiếp tục có trong Thư viện để đối chiếu.
 
 Kiến thức được sao chép theo ngân hàng ôn tập và **không phải hướng dẫn chẩn đoán hoặc điều trị**.
 

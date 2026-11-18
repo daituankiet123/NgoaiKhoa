@@ -1,4 +1,4 @@
-const CACHE = 'ngoai-khoa-quest-v2';
+const CACHE = 'ngoai-khoa-quest-v3';
 const CORE = ['/', '/index.html', '/style.css', '/app.js', '/questions.json', '/manifest.webmanifest', '/assets/icons/icon-192.png', '/assets/icons/icon-512.png'];
 const SCANS = Array.from({length:27}, (_,i)=>`/assets/scans/trang-${String(i+1).padStart(2,'0')}.webp`);
 
